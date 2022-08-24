@@ -1,6 +1,82 @@
+
 *{
     padding: 5px;
 }
 .menuDiv{
     color: black;
+}
+
+.sign-updiv{
+    vertical-align: top;
+    margin-left: 350px;
+    margin-top:100px;
+    border-color: green;
+    height: 400px;
+    width: 400px;
+
+}
+.logo{
+    height:60px;
+    border-radius: 10px;
+    margin-left: 220px;
+    
+    
+    
+}
+
+.username,.gmail,.std-id,
+.password,.confirm-password{
+    height: 32px;
+    width: 300px;
+    border-style: solid;
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 4px;
+    text-align: center;
+
+
+}
+
+.sign-up{
+   width: 100px;
+    height: 30px;
+    color: white;
+    background-color: rgb(53, 153, 53);
+    border-color:rgb(53, 153, 53);
+    border-style: solid;
+    border-radius: 2px;
+    margin-left: 210px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+.sign-up:active{
+    color:rgb(53, 153, 53) ;
+    background-color: white;
+    opacity: 0.8;
+    transition: background-color 0.15s,color 0.15s;
+    
+}
+.already{
+    font-family: Arial;
+    font-size: 13px; 
+    margin-left: 160px;
+   
+    
+    
+    
+}
+.log-in{
+   
+    font-style: italic;
+    font-family: Arial;
+    text-align: center;
+    font-size: 13px; 
+    color: rgb(53, 153, 53);
+    
+}
+.log-in:hover{
+  cursor: pointer;
 }
